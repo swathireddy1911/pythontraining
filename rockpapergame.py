@@ -10,9 +10,9 @@ while(player1 and player2)=="yes":
         print("tie")
     elif player1=="rock":
         if player2=="scissor":
-            print("%s congratulations you win" %p2)
-        else:
             print("%s congratulations you win" %p1)
+        else:
+            print("%s congratulations you win" %p2)
     elif player1=="paper":
         if player2=="scissor":
             print("%s congratulations you win" %p2)
