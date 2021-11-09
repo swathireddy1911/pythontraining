@@ -1,0 +1,8 @@
+echo "What is the capital of India"
+read a
+echo $a
+until [ $a = "delhi" ]
+do
+  echo "What is the capital of India"
+  read a
+done

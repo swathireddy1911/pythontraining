@@ -1,0 +1,6 @@
+echo "enter a string"
+read text
+word=$(echo -n "$text" | wc -w)
+char=$(echo -n "$text" | wc -c)
+echo "number of words=$word"
+echo "number of charecters=$char"

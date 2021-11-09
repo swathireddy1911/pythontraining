@@ -1,0 +1,2 @@
+cat number.txt
+sort -n number.txt
